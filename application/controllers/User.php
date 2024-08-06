@@ -17,7 +17,7 @@ class User extends CI_Controller {
   ); 
   $this->load->view('template/main',$data);  
  } 
-}
+
 
 public function add() 
 { 
@@ -26,4 +26,5 @@ public function add()
         'content'=> 'user/add_form' 
  ); 
  $this->load->view('template/main',$data);  
+}
 }
